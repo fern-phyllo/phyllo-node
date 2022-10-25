@@ -11,6 +11,6 @@
     },
     "packageManager": "yarn@3.2.4",
     "dependencies": {
-        "@fern-api/phyllo": "portal:../"
+        "@fern-api/phyllo": "link:../"
     }
 }

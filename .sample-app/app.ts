@@ -15,7 +15,7 @@ async function main() {
     return;
   }
 
-  const phyllo = new PhylloApi.Client({
+  const phyllo = new PhylloConnectApi.Client({
     _origin: "api.getphyllo.com",
     _credentials: {
       username: clientId,
@@ -25,7 +25,7 @@ async function main() {
 
   const createResponse = await phyllo.connect.createUser({
     name: "myName",
-    external_id: "user_abc123"
+    externalId: "user_abc123"
   });
 
   if (!createResponse.ok) {

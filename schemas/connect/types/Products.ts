@@ -11,10 +11,7 @@ export const Products: core.schemas.ObjectSchema<Products.Raw, PhylloConnectApi.
     identity: core.schemas.lazyObject(() => schemas.connect.IdentityProduct),
     engagement: core.schemas.lazyObject(() => schemas.connect.EngagementProduct),
     income: core.schemas.lazyObject(() => schemas.connect.IncomeProduct),
-    switch_: core.schemas.property(
-      "switch",
-      core.schemas.lazyObject(() => schemas.connect.SwitchProduct)
-    ),
+    switch: core.schemas.lazyObject(() => schemas.connect.SwitchProduct),
   }
 );
 

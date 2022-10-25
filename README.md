@@ -30,13 +30,7 @@ const phyllo = new PhylloConnectApi.Client({
     password: phylloSecret
   }
 });
-```
 
-## Sample app
-
-Check out the [sample app](.sample-app/app.ts) which consumes this SDK!
-
-```bash
 const createResponse = await phyllo.connect.createUser({
   name: "myName",
   externalId: "user_abc123"
@@ -47,6 +41,19 @@ if (!createResponse.ok) {
 } else {
   console.log(`Created user! The user ID is ${createResponse.body.id}`);
 }
+```
+
+## Sample app
+
+Check out the [sample app](.sample-app/app.ts) which consumes this SDK!
+
+```bash
+export PHYLLO_CLIENT_ID=...
+export PHYLLO_SECRET=...
+
+cd .sample-app
+yarn install
+yarn start
 ```
 
 ## SDK Examples

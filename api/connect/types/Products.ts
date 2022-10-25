@@ -8,5 +8,5 @@ export interface Products {
   identity: PhylloConnectApi.connect.IdentityProduct;
   engagement: PhylloConnectApi.connect.EngagementProduct;
   income: PhylloConnectApi.connect.IncomeProduct;
-  switch: PhylloConnectApi.connect.SwitchProduct;
+  switch_: PhylloConnectApi.connect.SwitchProduct;
 }

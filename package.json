@@ -1,6 +1,6 @@
 {
     "name": "@fern-api/phyllo",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "repository": "https://github.com/fern-phyllo/phyllo-node",
     "main": "./index.js",
     "types": "./index.d.ts",

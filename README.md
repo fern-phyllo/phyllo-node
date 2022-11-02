@@ -4,7 +4,7 @@
 
 ## Documentation
 
-API documentation is available at <https://docs.getphyllo.com/>.
+API documentation is available at <https://docs.getphyllo.com/>
 
 ## Usage
 
@@ -42,23 +42,6 @@ if (!createResponse.ok) {
   console.log(`Created user! The user ID is ${createResponse.body.id}`);
 }
 ```
-
-## Sample app
-
-Check out the [sample app](.sample-app/app.ts) which consumes this SDK!
-
-```bash
-export PHYLLO_CLIENT_ID=...
-export PHYLLO_SECRET=...
-
-cd .sample-app
-yarn install
-yarn start
-```
-
-## SDK Examples
-
-Below are a few examples of how to use the SDK to hit different endpoints. Check out our [API Reference](https://docs.getphyllo.com/) to see all of our endpoints.
 
 ## Beta status
 

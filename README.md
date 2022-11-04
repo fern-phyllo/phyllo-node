@@ -8,6 +8,8 @@ API documentation is available at <https://docs.getphyllo.com/>
 
 ## Usage
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/typescript-example-using-sdk-built-with-fern-tbenx4?file=app.ts&view=editor)
+
 ```typescript
 import { PhylloConnectApiClient } from '@fern-api/phyllo';
 
@@ -26,11 +28,7 @@ const response = await client.connect.createUser({
   externalId: 'abc123',
 });
 
-console.log(
-  'Received response from Phyllo!',
-  JSON.stringify(response, undefined, 4)
-);
-
+console.log('Received response from Phyllo!', response);
 ```
 
 ## Beta status
